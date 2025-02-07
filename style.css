@@ -1,0 +1,265 @@
+@font-face {
+  font-family: "font1";
+  src: url(./file.ttf);
+}
+@font-face {
+  font-family: font2;
+  src: url(./madefor-text.var.original.ttf);
+}@font-face {
+  font-family: font3;
+  src: url(./file\ \(3\).ttf);
+}@font-face {
+  font-family: font4;
+  src: url(./file\ \(2\).ttf);
+}@font-face {
+  font-family: font5;
+  src: url(./file\ \(1\).ttf);
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: #FAFAFA;
+
+}
+#main{
+  height: 100vh;
+  width: 100vw;
+  background-color: #FAFAFA;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+}
+.imageContainer{
+  height: 95%;
+  width: 98%;
+  background-color: yellow;
+  border-radius: 3%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  overflow: hidden;
+
+
+}
+.imageContainer img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.nav{
+  position: absolute;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 3%;
+}
+.nav h1{
+  font-family:font4;
+  font-size: 3vw;
+  font-weight: 900;
+  text-transform: uppercase;
+  transition: all ease 0.5s;
+}
+.nav a{
+  background-color: #fff;
+  color: #000;
+  font-size: 1vw;
+  font-family: font2;
+  font-weight: 900;
+  padding: 1vw 2vw;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: all ease 0.9s;
+}
+.nav a:hover{
+  color: #fff;
+  background-color: #000;
+}
+.imageContainer .position{
+  position: absolute;
+  color: #fff;
+  top: 55%;
+  left: 5%;
+  transition: all ease 0.5s;
+}
+.position h2{
+  font-family: font4;
+  font-size: 4vw;
+  font-weight: 900;
+}
+.position h1{
+  font-family: font4;
+  font-size: 6vw;
+}
+.position span{
+  color: #060606;
+}
+.position .span{
+  position: absolute;
+ 
+  font-weight: 900;
+  color: #fff;
+  
+}
+.position:hover{
+  transform: perspective(500px) rotateY(25deg);
+}
+.nav h1:hover{
+  transform: skewX(20deg);
+}
+
+.page2{
+  background-color: #FAFAFA;
+  margin-top: 100vh;
+}
+.pera{
+  font-size: 5vw;
+  padding: 8vw 10vw;
+  font-family: font3;
+  font-weight: 900;
+  color: #3e2c2c;
+  text-align: center;
+}
+.page3{
+  width: 100vw;
+  padding: 2vw 2vw;
+}
+.page3 h1{
+  font-family: font4;
+  font-weight: 900;
+  font-size: 5vw;
+}
+.contain{
+  display: flex;
+  gap: 3vw;
+  flex-wrap: wrap;
+  margin-top: 1vw;
+}
+.box{
+  height: 10vw;
+  width: 10vw;
+  border-radius: 1vw;
+  background-color: #060606;
+  /* background-color: #a5a5a5; */
+  padding: 0.5vw;
+}
+.box img{
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  height:fit-content;
+}
+
+.page4{
+  width: 100vw;
+
+}
+.page4 h1{
+  font-family: font4;
+  font-size: 5vw;
+  font-weight: 900;
+  padding: 3vw 2vw;
+}
+.sample{
+  display: flex;
+  flex-direction: column;
+  gap: -3vw;
+}
+.sample1{
+  display: flex;
+  gap: 2vw;
+  padding: 3vw 2vw;
+}
+.pro{
+  height: 20vw;
+  width: 30vw;
+  background-color:#000000 ;
+  padding: 1vw;
+  border-radius: 2vw;
+  overflow: hidden;
+  transition: all ease 0.5s;
+}
+.pro video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+
+}
+.pro img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+
+}
+.pro:hover{
+  transform: perspective(500px) rotateY(15deg);
+ 
+}
+.page5{
+  width: 100vw;
+  background-color: #060606;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page5 .help{
+  position: absolute;
+  font-family: font3;
+  font-size: 20vw;
+  display: flex;
+  gap: 13vw;
+  text-transform: uppercase;
+  margin-bottom: 20vw;
+}
+
+.page5 .role{
+  position: absolute;
+  font-family: font3;
+  font-size: 8vw;
+  display: flex;
+  text-transform: uppercase;
+  margin-bottom: 20vw;
+  text-align: center;
+  margin-top: 45vw;
+  line-height: 8vw;
+  color: #5f5f5f;
+  padding-bottom: 2vw;
+}
+.page6{
+  width: 100vw;
+}
+.page6 p{
+  font-family: font4;
+  line-height: 10vw;
+  text-transform: uppercase;
+  padding: 3vw 2vw;
+  font-size: 8vw;
+  color: #211e1e;
+  font-weight: 900;
+  margin-top: 3vw;
+}
+p span{
+  text-transform: lowercase;
+  font-family: font1;
+}
+p span:hover{
+  text-decoration-line: line-through;
+  text-decoration-thickness: 0.5vw;
+}
